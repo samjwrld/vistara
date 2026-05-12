@@ -9,6 +9,7 @@ import { PageWrapper } from './components/PageWrapper';
 import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
 import { Studio } from './pages/Studio';
+import { Services } from './pages/Services';
 import { Approach } from './pages/Approach';
 import { Contact } from './pages/Contact';
 import { ProjectDetail } from './pages/ProjectDetail';
@@ -24,6 +25,7 @@ const AnimatedRoutes = () => {
           <Route path="/projects" element={<PageWrapper><Projects /></PageWrapper>} />
           <Route path="/projects/:slug" element={<PageWrapper><ProjectDetail /></PageWrapper>} />
           <Route path="/studio" element={<PageWrapper><Studio /></PageWrapper>} />
+          <Route path="/services" element={<PageWrapper><Services /></PageWrapper>} />
           <Route path="/approach" element={<PageWrapper><Approach /></PageWrapper>} />
           <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
         </Routes>

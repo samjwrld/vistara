@@ -88,7 +88,7 @@ export const ProjectDetail = () => {
         transition={{ duration: 1 }}
         className="w-full aspect-[4/3] md:aspect-[21/9] rounded-[2rem] overflow-hidden mb-12 md:mb-16 relative shadow-2xl"
       >
-        <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+        <img src={project.image} alt={project.title} referrerPolicy="no-referrer" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/15"></div>
         <div className="absolute bottom-6 left-6 md:bottom-16 md:left-16 text-white max-w-2xl">
           <p className="text-[10px] md:text-xs font-mono uppercase tracking-[0.3em] mb-4 opacity-90">{project.category} &mdash; {project.location}</p>
@@ -183,7 +183,7 @@ export const ProjectDetail = () => {
               className={`rounded-[2rem] overflow-hidden shadow-xl cursor-pointer ${i % 3 === 0 ? 'md:col-span-2 aspect-[21/9]' : 'aspect-square'}`}
               onClick={() => openLightbox(i)}
             >
-              <img src={img} alt={`${project.title} detail ${i}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-[2s]" />
+              <img src={img} alt={`${project.title} detail ${i}`} referrerPolicy="no-referrer" className="w-full h-full object-cover hover:scale-105 transition-transform duration-[2s]" />
             </motion.div>
           ))}
           {!project.gallery && (
@@ -249,6 +249,7 @@ export const ProjectDetail = () => {
               <img 
                 src={project.gallery[currentImageIndex]} 
                 alt={`${project.title} - gallery image ${currentImageIndex + 1}`}
+                referrerPolicy="no-referrer"
                 className="max-w-full max-h-full object-contain shadow-2xl"
               />
               

@@ -20,7 +20,7 @@ const ProjectsDetails: Project[] = [
     slug: 'serene-residence',
     title: 'Serene Residence',
     location: 'Hyderabad, India',
-    image: '/images/projects/serene-residence.jpg',
+    image: 'https://picsum.photos/seed/serene/1200/800',
     colSpan: 'md:col-span-8',
     aspect: 'aspect-[16/9]'
   },
@@ -29,7 +29,7 @@ const ProjectsDetails: Project[] = [
     slug: 'courtyard-house',
     title: 'Courtyard House',
     location: 'Bangalore, India',
-    image: '/images/projects/courtyard-house.jpg',
+    image: 'https://picsum.photos/seed/court-2/800/1200',
     colSpan: 'md:col-span-4',
     aspect: 'aspect-[3/4]',
     offset: 'md:mt-32'
@@ -39,7 +39,7 @@ const ProjectsDetails: Project[] = [
     slug: 'ivory-villa',
     title: 'Ivory Villa',
     location: 'Hyderabad, India',
-    image: '/images/projects/ivory-villa.jpg',
+    image: 'https://picsum.photos/seed/ivory/800/1000',
     colSpan: 'md:col-span-4',
     aspect: 'aspect-[4/5]',
     offset: 'md:-mt-24'
@@ -49,7 +49,7 @@ const ProjectsDetails: Project[] = [
     slug: 'monochrome-home',
     title: 'The Monochrome Home',
     location: 'Pune, India',
-    image: '/images/projects/monochrome-home.jpg',
+    image: 'https://picsum.photos/seed/mono/1200/800',
     colSpan: 'md:col-span-8',
     aspect: 'aspect-[16/9]'
   }
@@ -80,6 +80,7 @@ const ProjectCard = ({ project }: { project: Project; key?: React.Key }) => {
                style={{ y }}
                src={project.image} 
                alt={project.title} 
+               referrerPolicy="no-referrer"
                className="w-full h-full object-cover object-center grayscale-0 md:grayscale md:hover:grayscale-0 md:group-hover:grayscale-0 scale-100 md:group-hover:scale-[1.08] transition-all duration-[1.2s] ease-[cubic-bezier(0.16,1,0.3,1)]" 
              />
            </div>

@@ -30,8 +30,9 @@ export const Studio = () => {
       >
         <div className="w-full h-[45vh] sm:h-[60vh] md:h-[75vh] overflow-hidden bg-gray-100 relative group rounded-2xl md:rounded-none">
           <img 
-            src="/images/studio/hero.jpg" 
-            alt="Studio Visual" 
+            src="/images/studio/studio_hero.png" 
+            alt="Vistara Atelier Studio environment" 
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover grayscale-[20%] group-hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]"
           />
         </div>
@@ -300,7 +301,7 @@ export const Studio = () => {
             transition={{ duration: 1 }}
             className="aspect-[4/3] bg-gray-100 overflow-hidden"
           >
-            <img src="/images/studio/working-1.jpg" alt="Architectural drawings and materials" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
+            <img src="/images/studio/workspace_1.png" alt="Collaborative design zone" referrerPolicy="no-referrer" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
@@ -309,7 +310,7 @@ export const Studio = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="aspect-[4/3] bg-gray-100 overflow-hidden md:mt-24"
           >
-            <img src="/images/studio/working-2.jpg" alt="Construction detail" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
+            <img src="/images/studio/material_library.png" alt="Material exploration" referrerPolicy="no-referrer" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
           </motion.div>
         </div>
       </section>

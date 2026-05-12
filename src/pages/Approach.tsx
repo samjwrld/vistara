@@ -8,31 +8,31 @@ const steps = [
     id: "01",
     title: "Discovery & Understanding",
     desc: "Deep-dive client briefing to interpret vision, lifestyle, functional needs, site context, and budget — establishing a clear design mandate before a single line is drawn.",
-    image: "/images/approach/discovery.jpg",
+    image: "https://picsum.photos/seed/app-1/800/1000",
   },
   {
     id: "02",
     title: "Concept Development",
     desc: "Spatial narratives, zoning strategies, mood boards, and design direction — translating the brief into a coherent spatial proposition for client sign-off.",
-    image: "/images/approach/concept.jpg",
+    image: "https://picsum.photos/seed/app-2/800/1000",
   },
   {
     id: "03",
     title: "Design & Detailing",
     desc: "Layouts, material specifications, BOQs, custom furniture design, and full technical drawing sets — every element resolved before it reaches site.",
-    image: "/images/approach/design.jpg",
+    image: "https://picsum.photos/seed/app-3/800/1000",
   },
   {
     id: "04",
     title: "Coordination & Procurement",
     desc: "Integration with MEP consultants, structural engineers, vendors, contractors, and specialised fabricators — ensuring seamless delivery across all workstreams.",
-    image: "/images/approach/coordination.jpg",
+    image: "https://picsum.photos/seed/app-4/800/1000",
   },
   {
     id: "05",
     title: "Execution & Handover",
     desc: "On-site supervision ensuring quality, design integrity, and timeline adherence through to final handover — with zero compromise on the detail.",
-    image: "/images/approach/execution.jpg",
+    image: "https://picsum.photos/seed/app-5/800/1000",
   }
 ];
 
@@ -102,6 +102,7 @@ export const Approach = () => {
                 <img 
                   src={step.image} 
                   alt={step.title}
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale-[20%] transition-transform duration-[3s] group-hover:scale-105" 
                 />
                 <div className="absolute inset-0 bg-[#4f1636]/5 group-hover:bg-transparent transition-colors duration-1000 mix-blend-multiply"></div>

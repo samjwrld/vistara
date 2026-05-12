@@ -75,7 +75,7 @@ export const Hero = () => {
             transition={{ delay: 0.2, duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
             className="w-full md:w-[70%] h-full relative z-10 overflow-hidden ml-auto group rounded-2xl md:rounded-none"
           >
-             <img src="/images/homepage/hero-1.jpg" alt="Modern Architecture Exterior" className="w-full h-full object-cover object-center grayscale-[30%] group-hover:scale-[1.03] group-hover:-translate-y-2 group-hover:grayscale-0 transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
+             <img src="/images/projects/terracotta_villa.png" alt="Modern Architecture Exterior" referrerPolicy="no-referrer" className="w-full h-full object-cover object-center grayscale-[30%] group-hover:scale-[1.03] group-hover:-translate-y-2 group-hover:grayscale-0 transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
           </motion.div>
 
           {/* Secondary Offset Image */}
@@ -87,7 +87,7 @@ export const Hero = () => {
              className="absolute bottom-[-10%] sm:bottom-[-15%] md:bottom-[-20%] left-[-4%] sm:left-0 md:left-[8%] w-[60%] sm:w-[50%] md:w-[35%] aspect-[3/4] z-20 overflow-hidden bg-white/20 backdrop-blur-[20px] border border-white/40 p-2 md:p-4 shadow-[0_12px_40px_rgba(79,22,54,0.05)] rounded-xl md:rounded-none"
           >
             <div className="w-full h-full overflow-hidden group">
-              <img src="/images/homepage/hero-2.jpg" alt="Interior Detail" className="w-full h-full object-cover object-center group-hover:scale-[1.05] group-hover:-translate-y-1 transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
+              <img src="/images/projects/luxury_bedroom.png" alt="Interior Detail" referrerPolicy="no-referrer" className="w-full h-full object-cover object-center group-hover:scale-[1.05] group-hover:-translate-y-1 transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
             </div>
           </motion.div>
         </div>

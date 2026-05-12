@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 
-const navItems = ['Projects', 'Studio', 'Approach', 'Contact'];
+const navItems = ['Projects', 'Studio', 'Services', 'Approach', 'Contact'];
 
 export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
