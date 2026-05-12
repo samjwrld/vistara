@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'motion/react';
 import { ArrowRight, ArrowDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -8,31 +8,31 @@ const steps = [
     id: "01",
     title: "Discovery & Understanding",
     desc: "Deep-dive client briefing to interpret vision, lifestyle, functional needs, site context, and budget — establishing a clear design mandate before a single line is drawn.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2669&auto=format&fit=crop",
+    image: "/images/approach/discovery.jpg",
   },
   {
     id: "02",
     title: "Concept Development",
     desc: "Spatial narratives, zoning strategies, mood boards, and design direction — translating the brief into a coherent spatial proposition for client sign-off.",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2671&auto=format&fit=crop",
+    image: "/images/approach/concept.jpg",
   },
   {
     id: "03",
     title: "Design & Detailing",
     desc: "Layouts, material specifications, BOQs, custom furniture design, and full technical drawing sets — every element resolved before it reaches site.",
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1000&auto=format&fit=crop",
+    image: "/images/approach/design.jpg",
   },
   {
     id: "04",
     title: "Coordination & Procurement",
     desc: "Integration with MEP consultants, structural engineers, vendors, contractors, and specialised fabricators — ensuring seamless delivery across all workstreams.",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1000&auto=format&fit=crop",
+    image: "/images/approach/coordination.jpg",
   },
   {
     id: "05",
     title: "Execution & Handover",
     desc: "On-site supervision ensuring quality, design integrity, and timeline adherence through to final handover — with zero compromise on the detail.",
-    image: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=2670&auto=format&fit=crop",
+    image: "/images/approach/execution.jpg",
   }
 ];
 

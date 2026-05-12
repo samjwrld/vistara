@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { ALL_PROJECTS } from '../constants/projects';

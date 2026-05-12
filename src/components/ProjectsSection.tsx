@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'motion/react';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ const ProjectsDetails: Project[] = [
     slug: 'serene-residence',
     title: 'Serene Residence',
     location: 'Hyderabad, India',
-    image: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=2670&auto=format&fit=crop',
+    image: '/images/projects/serene-residence.jpg',
     colSpan: 'md:col-span-8',
     aspect: 'aspect-[16/9]'
   },
@@ -29,7 +29,7 @@ const ProjectsDetails: Project[] = [
     slug: 'courtyard-house',
     title: 'Courtyard House',
     location: 'Bangalore, India',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop',
+    image: '/images/projects/courtyard-house.jpg',
     colSpan: 'md:col-span-4',
     aspect: 'aspect-[3/4]',
     offset: 'md:mt-32'
@@ -39,7 +39,7 @@ const ProjectsDetails: Project[] = [
     slug: 'ivory-villa',
     title: 'Ivory Villa',
     location: 'Hyderabad, India',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2653&auto=format&fit=crop',
+    image: '/images/projects/ivory-villa.jpg',
     colSpan: 'md:col-span-4',
     aspect: 'aspect-[4/5]',
     offset: 'md:-mt-24'
@@ -49,7 +49,7 @@ const ProjectsDetails: Project[] = [
     slug: 'monochrome-home',
     title: 'The Monochrome Home',
     location: 'Pune, India',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2675&auto=format&fit=crop',
+    image: '/images/projects/monochrome-home.jpg',
     colSpan: 'md:col-span-8',
     aspect: 'aspect-[16/9]'
   }

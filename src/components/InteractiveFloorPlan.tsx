@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { Layers, Info, Image as ImageIcon, Box } from 'lucide-react';
 
 interface Room {
@@ -22,7 +22,7 @@ const mockFloorPlan: Room[] = [
     furniturePath: 'M15,15 L35,15 L35,25 L15,25 Z M20,30 L25,30 L25,40 L20,40 Z',
     area: '450 sq.ft',
     description: 'A spacious area for gathering with natural light throughout the day.',
-    image: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=2670&auto=format&fit=crop',
+    image: '/images/floorplan/living-room.jpg',
     centerX: 25,
     centerY: 30,
   },
@@ -33,7 +33,7 @@ const mockFloorPlan: Room[] = [
     furniturePath: 'M45,15 L65,15 L65,20 L45,20 Z M50,25 L60,25 L60,35 L50,35 Z',
     area: '300 sq.ft',
     description: 'Open-concept culinary space designed for both function and entertainment.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2653&auto=format&fit=crop',
+    image: '/images/floorplan/kitchen.jpg',
     centerX: 55,
     centerY: 25,
   },
@@ -44,7 +44,7 @@ const mockFloorPlan: Room[] = [
     furniturePath: 'M75,15 L95,15 L95,25 L75,25 Z',
     area: '400 sq.ft',
     description: 'Private retreat featuring a walk-in closet and en-suite bathroom.',
-    image: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=2657&auto=format&fit=crop',
+    image: '/images/floorplan/master-suite.jpg',
     centerX: 85,
     centerY: 25,
   },
@@ -55,7 +55,7 @@ const mockFloorPlan: Room[] = [
     furniturePath: 'M45,45 L65,45 L65,55 L45,55 Z',
     area: '200 sq.ft',
     description: 'Comfortable accommodation for visitors with a courtyard view.',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2669&auto=format&fit=crop',
+    image: '/images/floorplan/guest-room.jpg',
     centerX: 55,
     centerY: 50,
   },
@@ -65,7 +65,7 @@ const mockFloorPlan: Room[] = [
     path: 'M10,50 L40,50 L40,90 L10,90 Z',
     area: '500 sq.ft',
     description: 'The green heart of the home, bringing nature indoors.',
-    image: 'https://images.unsplash.com/photo-1623298317883-6b7025404f66?q=80&w=2670&auto=format&fit=crop',
+    image: '/images/floorplan/courtyard.jpg',
     centerX: 25,
     centerY: 70,
   },
@@ -76,7 +76,7 @@ const mockFloorPlan: Room[] = [
     furniturePath: 'M45,65 L95,65 L95,85 L45,85 Z',
     area: '350 sq.ft',
     description: 'A quiet space for focus and contemplation.',
-    image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=2670&auto=format&fit=crop',
+    image: '/images/floorplan/library.jpg',
     centerX: 70,
     centerY: 75,
   }

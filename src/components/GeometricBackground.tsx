@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 
 export const GeometricBackground = () => (
   <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden" aria-hidden="true">

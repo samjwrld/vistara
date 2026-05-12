@@ -1,14 +1,14 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { ArrowUpRight, Triangle, Circle, Hexagon, Square, Component, Box, ArrowRight, Building2, Paintbrush, Hammer, Compass } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const projects = [
-    "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1000&auto=format&fit=crop"
+    "/images/homepage/project-strip-1.jpg",
+    "/images/homepage/project-strip-2.jpg",
+    "/images/homepage/project-strip-3.jpg",
+    "/images/homepage/project-strip-4.jpg",
+    "/images/homepage/project-strip-5.jpg"
 ];
 
 export const AutoScrollProjectStrip = () => {
@@ -44,31 +44,31 @@ export const ServicesGrid = () => {
             title: "Luxury Residential Design — Hyderabad",
             description: "Bespoke interiors for apartments, independent villas, and penthouse residences. Tailored material palettes, space planning, custom joinery, and end-to-end execution for budgets starting Rs 15 Lakhs.",
             icon: Building2,
-            image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/services/luxury-residential.jpg"
         },
         {
             title: "Corporate Workspaces & Office Interiors — Hyderabad",
             description: "Architecture and interior design for corporate offices, tech campuses, co-working spaces, and incubation centres. From 5,000 sqft fit-outs to 2,00,000+ sqft master-planned developments.",
             icon: Square,
-            image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/services/corporate-workspace.jpg"
         },
         {
             title: "Cafe, Restaurant & Hospitality Design",
             description: "Concept-to-completion design for cafes, restaurants, QSRs, and premium lounges. Spatial storytelling, guest flow optimisation, material curation, and operational integration for F&B operators.",
             icon: Paintbrush,
-            image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/services/hospitality.jpg"
         },
         {
             title: "Greenfield & Large-Scale Developments",
             description: "Master planning, campus visioning, zoning, and circulation strategies for research parks, tech campuses, mixed-use developments, and integrated townships.",
             icon: Compass,
-            image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/services/greenfield.jpg"
         },
         {
             title: "Airport & Aviation Lounge Interiors",
             description: "Premium lounge environments for international and domestic terminals — spatial planning, passenger flow optimisation, and detailed hospitality interiors under complex operational constraints.",
             icon: Compass,
-            image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/services/airport.jpg"
         }
     ];
 
@@ -188,7 +188,7 @@ export const FeatureProject = () => {
     return (
         <section className="relative z-10 w-full px-6 md:px-12 py-16 max-w-[1800px] mx-auto">
             <Link to="/projects/courtyard-house" className="block w-full relative h-[60vh] md:h-[80vh] overflow-hidden group cursor-pointer rounded-[2rem]">
-                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2670&auto=format&fit=crop" className="w-full h-full object-cover grayscale-[20%] group-hover:scale-[1.03] group-hover:grayscale-0 transition-all duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" alt="Courtyard House"/>
+                <img src="/images/homepage/courtyard-featured.jpg" className="w-full h-full object-cover grayscale-[20%] group-hover:scale-[1.03] group-hover:grayscale-0 transition-all duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" alt="Courtyard House"/>
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-[1.5s] ease-[cubic-bezier(0.16,1,0.3,1)]"></div>
                 <div className="absolute bottom-0 left-0 w-full p-8 md:p-12 text-white flex flex-col md:flex-row justify-between items-start md:items-end gap-6 glass-nav group-hover:bg-white/20 transition-all duration-[1.5s] border-b-0 border-x-0 !border-t-white/30 rounded-t-none rounded-[2rem]">
                     <div>
@@ -205,12 +205,12 @@ export const FeatureProject = () => {
 };
 
 const freeFlowImages = [
-    { src: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1000&auto=format&fit=crop', aspect: 'aspect-[3/4]', mt: 'mt-0' },
-    { src: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000&auto=format&fit=crop', aspect: 'aspect-[4/3]', mt: 'mt-8 md:mt-32 lg:mt-48' },
-    { src: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1000&auto=format&fit=crop', aspect: 'aspect-[1/1]', mt: 'mt-8 md:mt-16 lg:mt-12' },
-    { src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop', aspect: 'aspect-[3/5]', mt: 'mt-8 md:-mt-24 lg:-mt-48' },
-    { src: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=1000&auto=format&fit=crop', aspect: 'aspect-[16/9]', mt: 'mt-8 md:mt-12' },
-    { src: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop', aspect: 'aspect-[4/5]', mt: 'mt-8 md:mt-16 lg:-mt-24' },
+    { src: '/images/homepage/gallery-1.jpg', aspect: 'aspect-[3/4]', mt: 'mt-0' },
+    { src: '/images/homepage/gallery-2.jpg', aspect: 'aspect-[4/3]', mt: 'mt-8 md:mt-32 lg:mt-48' },
+    { src: '/images/homepage/gallery-3.jpg', aspect: 'aspect-[1/1]', mt: 'mt-8 md:mt-16 lg:mt-12' },
+    { src: '/images/homepage/gallery-4.jpg', aspect: 'aspect-[3/5]', mt: 'mt-8 md:-mt-24 lg:-mt-48' },
+    { src: '/images/homepage/gallery-5.jpg', aspect: 'aspect-[16/9]', mt: 'mt-8 md:mt-12' },
+    { src: '/images/homepage/gallery-6.jpg', aspect: 'aspect-[4/5]', mt: 'mt-8 md:mt-16 lg:-mt-24' },
 ];
 
 export const FreeFlowGallery = () => {
@@ -278,7 +278,7 @@ export const DesignerMinimal = () => (
         <div className="glass-panel rounded-[3rem] p-16 md:p-24 flex flex-col items-center relative overflow-hidden group w-full">
             <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-transparent pointer-events-none transition-opacity duration-1000 group-hover:opacity-50"></div>
             <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden mb-8 border border-white/60 p-1 shadow-[0_12px_40px_rgba(79,22,54,0.15),inset_0_2px_8px_rgba(255,255,255,0.6)] relative z-10 glass-nav">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=500&auto=format&fit=crop" className="w-full h-full rounded-full object-cover grayscale" alt="Vaishnavi Sankala"/>
+                <img src="/images/team/vaishnavi.jpg" className="w-full h-full rounded-full object-cover grayscale" alt="Vaishnavi Sankala"/>
             </div>
             <h3 className="text-2xl md:text-3xl font-serif text-[#4f1636] mb-3 relative z-10">Vaishnavi Sankala</h3>
             <p className="text-[11px] md:text-sm font-mono uppercase tracking-[0.15em] text-[#896f73] relative z-10">Principal Architect</p>

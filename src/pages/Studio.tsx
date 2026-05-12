@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ export const Studio = () => {
       >
         <div className="w-full h-[45vh] sm:h-[60vh] md:h-[75vh] overflow-hidden bg-gray-100 relative group rounded-2xl md:rounded-none">
           <img 
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2669&auto=format&fit=crop" 
+            src="/images/studio/hero.jpg" 
             alt="Studio Visual" 
             className="w-full h-full object-cover grayscale-[20%] group-hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]"
           />
@@ -300,7 +300,7 @@ export const Studio = () => {
             transition={{ duration: 1 }}
             className="aspect-[4/3] bg-gray-100 overflow-hidden"
           >
-            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2671&auto=format&fit=crop" alt="Architectural drawings and materials" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
+            <img src="/images/studio/working-1.jpg" alt="Architectural drawings and materials" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
@@ -309,7 +309,7 @@ export const Studio = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="aspect-[4/3] bg-gray-100 overflow-hidden md:mt-24"
           >
-            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2670&auto=format&fit=crop" alt="Construction detail" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
+            <img src="/images/studio/working-2.jpg" alt="Construction detail" className="w-full h-full object-cover grayscale-[30%] hover:scale-[1.03] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)]" />
           </motion.div>
         </div>
       </section>
