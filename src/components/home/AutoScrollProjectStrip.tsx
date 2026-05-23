@@ -1,11 +1,11 @@
 import React from 'react';
 
 const projects = [
-    "/images/projects/courtyard_rainbow.png",
-    "/images/projects/terracotta_villa.png",
-    "/images/projects/brutalist_office.png",
-    "/images/projects/luxury_bedroom.png",
-    "/images/projects/workspace_wardrobe.png"
+    "/images/projects/p8.png",
+    "/images/projects/p9.png",
+    "/images/projects/p10.png",
+    "/images/projects/p11.png",
+    "/images/projects/p12.png"
 ];
 
 export const AutoScrollProjectStrip = () => {

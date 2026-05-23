@@ -20,7 +20,7 @@ const ProjectsDetails: Project[] = [
     slug: 'serene-residence',
     title: 'Serene Residence',
     location: 'Hyderabad, India',
-    image: 'https://picsum.photos/seed/serene/1200/800',
+    image: '/images/projects/p21.png',
     colSpan: 'md:col-span-8',
     aspect: 'aspect-[16/9]'
   },
@@ -29,7 +29,7 @@ const ProjectsDetails: Project[] = [
     slug: 'courtyard-house',
     title: 'Courtyard House',
     location: 'Bangalore, India',
-    image: 'https://picsum.photos/seed/court-2/800/1200',
+    image: '/images/projects/p8.png',
     colSpan: 'md:col-span-4',
     aspect: 'aspect-[3/4]',
     offset: 'md:mt-32'
@@ -39,7 +39,7 @@ const ProjectsDetails: Project[] = [
     slug: 'ivory-villa',
     title: 'Ivory Villa',
     location: 'Hyderabad, India',
-    image: 'https://picsum.photos/seed/ivory/800/1000',
+    image: '/images/projects/p22.png',
     colSpan: 'md:col-span-4',
     aspect: 'aspect-[4/5]',
     offset: 'md:-mt-24'
@@ -49,7 +49,7 @@ const ProjectsDetails: Project[] = [
     slug: 'monochrome-home',
     title: 'The Monochrome Home',
     location: 'Pune, India',
-    image: 'https://picsum.photos/seed/mono/1200/800',
+    image: '/images/projects/p23.png',
     colSpan: 'md:col-span-8',
     aspect: 'aspect-[16/9]'
   }

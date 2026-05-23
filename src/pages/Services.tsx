@@ -8,28 +8,28 @@ const services = [
     title: "Workspace Strategy & Planning",
     subtitle: "Agile & Future-Proof",
     desc: "We help organizations define how they work. Through spatial auditing and ethnographic research, we design agile environments that enhance productivity and foster a culture of innovation.",
-    image: "/images/projects/brutalist_office.png", // Placeholder for Image 2
+    image: "/images/services/t1.png", // Placeholder for Image 2
     features: ["Space Utilization Audits", "Headcount Growth Planning", "Agile Zoning", "Departmental Adjacency Mapping"]
   },
   {
     title: "Interior Architecture",
     subtitle: "The Anatomy of Experience",
     desc: "Our interior architecture services bridge the gap between structure and soul. We focus on the high-touch elements — materiality, lighting, and acoustics — to create cohesive, sensory-rich environments.",
-    image: "/images/projects/terracotta_villa.png", // Placeholder for Image 1
+    image: "/images/services/t2.png", // Placeholder for Image 1
     features: ["Custom Joinery & Millwork", "Lighting Design", "Acoustic Engineering", "FF&E Specification"]
   },
   {
     title: "Commercial Lobby & Hospitality",
     subtitle: "The Art of the Arrival",
     desc: "First impressions are lasting. We design concierge-level lobbies and corporate amenity spaces that serve as the heartbeat of modern commercial developments.",
-    image: "/images/services/lobby_arrival.png", // Placeholder for Image 6
+    image: "/images/services/t3.png", // Placeholder for Image 6
     features: ["Concierge Desk Design", "Brand Integration", "Visitor Experience Flow", "Wayfinding & Signage"]
   },
   {
     title: "Amenity & Wellness Spaces",
     subtitle: "Nurturing the Human Element",
     desc: "Beyond the desk, we create spaces for recharge and reconnection. From corporate cafes to wellness lounges, we prioritize human wellbeing in every square foot.",
-    image: "/images/services/wellness_amenity.png", // Placeholder for Image 5
+    image: "/images/services/t4.png", // Placeholder for Image 5
     features: ["Corporate Cafe & Pantry", "Wellness & Meditation Rooms", "Social Hubs", "Outdoor Work Terraces"]
   }
 ];

@@ -8,31 +8,31 @@ export const ServicesGrid = () => {
             title: "Luxury Residential Design — Hyderabad",
             description: "Bespoke interiors for apartments, independent villas, and penthouse residences. Tailored material palettes, space planning, custom joinery, and end-to-end execution for budgets starting Rs 15 Lakhs.",
             icon: Building2,
-            image: "/images/projects/courtyard_rainbow.png"
+            image: "/images/projects/p8.png"
         },
         {
             title: "Corporate Workspaces & Office Interiors — Hyderabad",
             description: "Architecture and interior design for corporate offices, tech campuses, co-working spaces, and incubation centres. From 5,000 sqft fit-outs to 2,00,000+ sqft master-planned developments.",
             icon: Square,
-            image: "/images/projects/brutalist_office.png"
+            image: "/images/projects/p10.png"
         },
         {
             title: "Cafe, Restaurant & Hospitality Design",
             description: "Concept-to-completion design for cafes, restaurants, QSRs, and premium lounges. Spatial storytelling, guest flow optimisation, material curation, and operational integration for F&B operators.",
             icon: Paintbrush,
-            image: "/images/projects/urban_bistro.png"
+            image: "/images/projects/p6.png"
         },
         {
             title: "Greenfield & Large-Scale Developments",
             description: "Master planning, campus visioning, zoning, and circulation strategies for research parks, tech campuses, mixed-use developments, and integrated townships.",
             icon: Compass,
-            image: "/images/projects/site_analysis.png"
+            image: "/images/projects/p19.png"
         },
         {
             title: "Airport & Aviation Lounge Interiors",
             description: "Premium lounge environments for international and domestic terminals — spatial planning, passenger flow optimisation, and detailed hospitality interiors under complex operational constraints.",
             icon: Compass,
-            image: "/images/projects/aviation_lounge.png"
+            image: "/images/projects/p20.png"
         }
     ];
 

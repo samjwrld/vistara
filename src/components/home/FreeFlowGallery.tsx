@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'motion/react';
 
 const freeFlowImages = [
-    { src: '/images/projects/dining_stone_staircase.png', aspect: 'aspect-[3/4]', mt: 'mt-0' },
-    { src: '/images/projects/living_marble_tv.png', aspect: 'aspect-[4/3]', mt: 'mt-8 md:mt-32 lg:mt-48' },
-    { src: '/images/projects/living_red_accent.png', aspect: 'aspect-[1/1]', mt: 'mt-8 md:mt-16 lg:mt-12' },
-    { src: '/images/projects/atrium_spiral.png', aspect: 'aspect-[3/5]', mt: 'mt-8 md:-mt-24 lg:-mt-48' },
-    { src: '/images/projects/modern_dining.png', aspect: 'aspect-[16/9]', mt: 'mt-8 md:mt-12' },
-    { src: '/images/projects/terracotta_villa.png', aspect: 'aspect-[4/5]', mt: 'mt-8 md:mt-16 lg:-mt-24' },
+    { src: '/images/homepage/h4.png', aspect: 'aspect-[3/4]', mt: 'mt-0' },
+    { src: '/images/homepage/h5.png', aspect: 'aspect-[4/3]', mt: 'mt-8 md:mt-32 lg:mt-48' },
+    { src: '/images/homepage/h6.png', aspect: 'aspect-[1/1]', mt: 'mt-8 md:mt-16 lg:mt-12' },
+    { src: '/images/homepage/h7.png', aspect: 'aspect-[3/5]', mt: 'mt-8 md:-mt-24 lg:-mt-48' },
+    { src: '/images/homepage/h8.png', aspect: 'aspect-[16/9]', mt: 'mt-8 md:mt-12' },
+    { src: '/images/homepage/h1.png', aspect: 'aspect-[4/5]', mt: 'mt-8 md:mt-16 lg:-mt-24' },
 ];
 
 export const FreeFlowGallery = () => {

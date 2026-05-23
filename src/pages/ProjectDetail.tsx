@@ -96,7 +96,8 @@ export const ProjectDetail = () => {
         </div>
       </motion.div>
 
-      {/* Intro Info */}
+      {/* Intro Info - Commented out as requested */}
+      {/* 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 md:gap-24 items-start">
         <div className="lg:col-span-4 flex flex-col gap-12">
           <div className="flex flex-col gap-4">
@@ -163,13 +164,17 @@ export const ProjectDetail = () => {
           </div>
         </div>
       </div>
+      */}
 
-      {/* Interactive Floor Plan */}
+      {/* Interactive Floor Plan - Commented out as requested */}
+      {/* 
       <div className="mt-32">
         <InteractiveFloorPlan />
       </div>
+      */}
 
-      {/* Detailed Gallery */}
+      {/* Detailed Gallery - Commented out as requested */}
+      {/* 
       <div className="mt-32">
         <h2 className="text-xs font-mono uppercase tracking-[0.2em] text-[#896f73] mb-12 text-center">Visual Narrative</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,6 +198,7 @@ export const ProjectDetail = () => {
           )}
         </div>
       </div>
+      */}
 
       {/* Next Projects Navigation */}
       <div className="mt-24 md:mt-48 pt-16 md:pt-24 border-t border-gray-100 flex flex-col items-center">
@@ -200,7 +206,8 @@ export const ProjectDetail = () => {
         <Link to="/projects" className="text-3xl md:text-6xl font-serif text-[#4f1636] transition-all text-center px-4">Explore the Collection</Link>
       </div>
 
-      {/* Lightbox */}
+      {/* Lightbox - Commented out as requested */}
+      {/* 
       <AnimatePresence>
         {lightboxOpen && project?.gallery && (
           <motion.div 
@@ -210,33 +217,30 @@ export const ProjectDetail = () => {
             className="fixed inset-0 z-[100] bg-[#4f1636]/95 backdrop-blur-sm flex items-center justify-center"
             onClick={closeLightbox}
           >
-            {/* Close Button */}
             <button 
               className="absolute top-6 right-6 md:top-10 md:right-10 text-white/50 hover:text-white transition-colors p-2 z-[110]"
               onClick={closeLightbox}
             >
-              <X className="w-8 h-8 md:w-10 md:h-10 font-light" />
+              <X className="w-8 h-8 md:w-10 md:h-10 font-[100]" />
             </button>
 
-            {/* Navigation Buttons */}
             {project.gallery.length > 1 && (
               <>
                 <button 
                   className="absolute left-4 md:left-10 text-white/50 hover:text-white transition-colors p-2 z-[110]"
                   onClick={prevImage}
                 >
-                  <ChevronLeft className="w-10 h-10 md:w-14 md:h-14 font-light" />
+                  <ChevronLeft className="w-10 h-10 md:w-14 md:h-14 font-[100]" />
                 </button>
                 <button 
                   className="absolute right-4 md:right-10 text-white/50 hover:text-white transition-colors p-2 z-[110]"
                   onClick={nextImage}
                 >
-                  <ChevronRight className="w-10 h-10 md:w-14 md:h-14 font-light" />
+                  <ChevronRight className="w-10 h-10 md:w-14 md:h-14 font-[100]" />
                 </button>
               </>
             )}
 
-            {/* Image Container */}
             <motion.div 
               key={currentImageIndex}
               initial={{ opacity: 0, scale: 0.95 }}
@@ -260,6 +264,7 @@ export const ProjectDetail = () => {
           </motion.div>
         )}
       </AnimatePresence>
+      */}
     </div>
   );
 };

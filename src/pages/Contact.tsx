@@ -22,7 +22,7 @@ export const Contact = () => {
             <ul className="flex flex-col items-center md:items-start gap-5 text-sm font-sans text-gray-600">
                <li className="flex items-start gap-4">
                   <MapPin className="w-[18px] h-[18px] text-gray-500 shrink-0 stroke-[1.5] mt-0.5" />
-                  <span>Jubilee Hills, Road No. 36<br/>Hyderabad 500033<br/>Telangana, India</span>
+                  <span>Gayathri's Elite, Vijayanagar Colony<br/>Hyderabad 500057<br/>Telangana, India</span>
                </li>
                <li className="flex items-center gap-4">
                   <Phone className="w-[18px] h-[18px] text-gray-500 shrink-0 stroke-[1.5]" />
