@@ -26,7 +26,7 @@ export const Contact = () => {
                </li>
                <li className="flex items-center gap-4">
                   <Phone className="w-[18px] h-[18px] text-gray-500 shrink-0 stroke-[1.5]" />
-                  <span>+91 40 2345 6789</span>
+                  <span>+91 72194 40700</span>
                </li>
                <li className="flex items-center gap-4 group">
                   <Mail className="w-[18px] h-[18px] text-gray-500 shrink-0 stroke-[1.5] group-hover:text-black transition-colors" />

@@ -44,13 +44,53 @@ export const ALL_PROJECTS: Project[] = [
     title: 'Greenfield Research Park', 
     location: 'Hyderabad', 
     category: 'Master Planning', 
-    image: '/images/projects/home/p2.png',
+    image: '/images/projects/p2.png',
     year: '2024',
     philosophy: 'Campus visioning, zoning, and circulation frameworks for a greenfield research and innovation campus. Supported by massing studies and sustainability-driven planning strategies designed for long-term growth.',
     materials: ['Terracotta Tiles', 'Reclaimed Teak', 'Exposed Brick', 'Hand-cut Granite'],
     testimonial: {
       text: "Living here feels like being in a continuous conversation with nature. The way light moves through the courtyard determines the rhythm of our day.",
       author: "Dr. K. Venkatesh"
+    },
+    gallery: [
+      '/images/projects/p2_1.png',
+      '/images/projects/p2_2.png'
+    ]
+  },
+  {
+    id: 24,
+    slug: 'ecotech-urban-district',
+    title: 'Eco-Tech Urban District',
+    location: 'Hyderabad',
+    category: 'Master Planning',
+    image: '/images/projects/p19.png',
+    year: '2025',
+    area: '150 Acres',
+    philosophy: 'A sustainable mixed-use urban layout designed for low carbon footprint and resilient infrastructure. Integrates green corridors, public transit nodes, and high-density active communities.',
+    materials: ['Permeable Concrete', 'Solar Glass', 'Recycled Composite Wood', 'Native Greenery'],
+    testimonial: {
+      text: "The master plan reimagines how urban communities interact with natural ecosystems, setting a new benchmark for sustainable development.",
+      author: "Aravind Rao"
+    },
+    gallery: [
+      '/images/projects/p2_1.png',
+      '/images/projects/p2_2.png'
+    ]
+  },
+  {
+    id: 25,
+    slug: 'aerotropolis-innovation-hub',
+    title: 'Aerotropolis Innovation Hub',
+    location: 'Shamshabad, Hyderabad',
+    category: 'Master Planning',
+    image: '/images/projects/p20.png',
+    year: '2026',
+    area: '85 Acres',
+    philosophy: 'A highly connected innovation hub around the aviation corridor, framing high-performance smart structures with integrated green fingers and dynamic public plazas.',
+    materials: ['Precast Concrete', 'Structural Glazing', 'Brushed Steel', 'Engineered Timber'],
+    testimonial: {
+      text: "Vistara Atelier brought forward-thinking planning and aesthetic sensitivity to a complex mobility-driven master plan.",
+      author: "Meera Sen"
     },
     gallery: [
       '/images/projects/p2_1.png',
@@ -78,7 +118,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'Luxury Residential', 
     location: 'Hyderabad', 
     category: 'Residential', 
-    image: '/images/projects/home/p4.png',
+    image: '/images/projects/p4.png',
     philosophy: 'Bespoke interiors with tailored space planning, curated material palettes, and custom joinery — balancing refined aesthetics with the way each family actually lives. Delivered for high-net-worth clients in Hyderabad’s premium residential corridors.',
     materials: ['Italian Marble', 'Smoked Oak', 'Brushed Aluminum', 'Micro-concrete']
   },
@@ -86,7 +126,7 @@ export const ALL_PROJECTS: Project[] = [
     id: 5, 
     slug: 'airport-lounges',
     title: 'Airport Lounges', 
-    location: 'Hyderabad', 
+    location: 'RGIA Airport, Hyderabad', 
     category: 'Aviation', 
     image: '/images/projects/p5.png',
     philosophy: 'Premium lounge environments for international and domestic terminals — spatial planning, passenger flow optimisation, and detailed hospitality-grade interiors under complex operational and regulatory requirements.'
@@ -116,7 +156,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'The Rainbow Courtyard',
     location: 'Jubilee Hills, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p8.png',
+    image: '/images/projects/p8.png',
     year: '2025',
     area: '8,500 sqft',
     philosophy: 'A residence designed around a central metabolic courtyard. The reflection pool acts as a thermal regulator, while the open sky connection invites the elements into daily life.',
@@ -128,7 +168,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'Terracotta Earth House',
     location: 'Banjara Hills, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p9.png',
+    image: '/images/projects/p9.png',
     year: '2024',
     area: '12,000 sqft',
     philosophy: 'An exploration of materiality and form. The terracotta facade provides a rhythmic texture that changes with the sun, grounding the structure in its tropical context.',
@@ -152,7 +192,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'Marble Sanctuary',
     location: 'Gachibowli, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p11.png',
+    image: '/images/projects/p11.png',
     year: '2025',
     philosophy: 'A master suite defined by a single, monolithic block of Statuario marble. The space balances the cold precision of stone with the warmth of bespoke silk textiles.',
     materials: ['Statuario Marble', 'Silk Wallpaper', 'Smoked Oak', 'Custom Upholstery']
@@ -160,10 +200,10 @@ export const ALL_PROJECTS: Project[] = [
   {
     id: 17,
     slug: 'sage-minimalist-workspace',
-    title: 'The Sage Homes',
+    title: 'The Sage Workspace',
     location: 'Kavituri, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p12.png',
+    image: '/images/projects/p12.png',
     year: '2024',
     philosophy: 'Integrating functionality into a singular design language. The custom sage green joinery acts as both storage and a calming backdrop for a focused home office.',
     materials: ['Lacquer Finish', 'Ash Wood', 'Solid Brass Handles', 'Woven Cord']
@@ -174,7 +214,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'The Floating Staircase Villa',
     location: 'Tellapur, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p13.png',
+    image: '/images/projects/p13.png',
     year: '2023',
     philosophy: 'Tension between weight and weightlessness. A massive natural stone wall supports a delicate floating timber staircase, creating a dramatic focal point for the dining hall.',
     materials: ['Rough-cut Stone', 'Solid Walnut', 'Hidden Steel Supports', 'White Quartz']
@@ -185,7 +225,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'The Grey Marble Atrium',
     location: 'Kokapet, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p14.png',
+    image: '/images/projects/p14.png',
     year: '2025',
     philosophy: 'Seamless integration of technology and architecture. A floor-to-ceiling grey marble wall discreetly houses state-of-the-art systems while maintaining a serene aesthetic.',
     materials: ['Armani Grey Marble', 'Walnut Paneling', 'Matte Lacquer', 'Hidden Storage']
@@ -196,7 +236,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'The Crimson Accent Suite',
     location: 'Jubilee Hills, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p15.png',
+    image: '/images/projects/p15.png',
     year: '2024',
     philosophy: 'Bold color as a spatial anchor. The deep crimson wall provides a dramatic backdrop for the client\'s art collection, transforming a living space into a private gallery.',
     materials: ['Venetian Plaster', 'Art-grade Lighting', 'Custom Rugs', 'Velvet']
@@ -207,7 +247,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'The Spiral Light Atrium',
     location: 'Manikonda, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p16.png',
+    image: '/images/projects/p16.png',
     year: '2025',
     philosophy: 'Circulation as sculpture. A white spiral staircase rises through a double-height atrium, framed by wooden slats that filter sunlight into a rhythmic pattern.',
     materials: ['Bent Steel', 'Oak Slats', 'Skylight Glass', 'Polished Stone']
@@ -218,7 +258,7 @@ export const ALL_PROJECTS: Project[] = [
     title: 'The Grand Minimalist Dining',
     location: 'Nanakramguda, Hyderabad',
     category: 'Residential',
-    image: '/images/projects/home/p17.png',
+    image: '/images/projects/p17.png',
     year: '2024',
     philosophy: 'A study in proportion and scale. The long, custom-carved dark oak table anchors the room, designed for large gatherings without sacrificing minimalist purity.',
     materials: ['Dark Oak', 'Sculptural Furniture', 'Architectural Lighting', 'Seamless Flooring']
