@@ -86,7 +86,7 @@ export const ALL_PROJECTS: Project[] = [
     id: 5, 
     slug: 'airport-lounges',
     title: 'Airport Lounges', 
-    location: 'RGIA Airport, Hyderabad', 
+    location: 'Hyderabad', 
     category: 'Aviation', 
     image: '/images/projects/p5.png',
     philosophy: 'Premium lounge environments for international and domestic terminals — spatial planning, passenger flow optimisation, and detailed hospitality-grade interiors under complex operational and regulatory requirements.'
@@ -160,7 +160,7 @@ export const ALL_PROJECTS: Project[] = [
   {
     id: 17,
     slug: 'sage-minimalist-workspace',
-    title: 'The Sage Workspace',
+    title: 'The Sage Homes',
     location: 'Kavituri, Hyderabad',
     category: 'Residential',
     image: '/images/projects/home/p12.png',
